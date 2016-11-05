@@ -1,11 +1,4 @@
-
-
-// var formattedName = HTMLheaderName.replace("%data%",name);
-//
-// var role = "Web Developer";
-// var formattedRole = HTMLheaderRole.replace("%data%,role");
-//
-// $("#header").prepend(formattedRole);
-// $("#header").prepend(formattedName);
-
-$("#header").append("Felix Balderrama Veizaga");
+var awesomeThoughts = "My name is Felix Balderrama and I am AWESOME";
+var funThoughts = awesomeThoughts.replace("AWESOME","FUN");
+$("#main").append(funThoughts);
+//$("#header").append(funThoughts);
