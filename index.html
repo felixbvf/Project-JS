@@ -1,0 +1,84 @@
+<DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>AngularJS</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="shortcut icon" href="favicon"/>
+
+        <script src="node_modules/core-js/client/shim.min.js"></script>
+        <script src="node_modules/zone.js/dist/zone.js"></script>
+        <script src="node_modules/reflect-metadata/Reflect.js"></script>
+        <script src="node_modules/systemjs/dist/system.src.js"></script>
+        <script src="https://code.angularjs.org/tools/typescript.js"></script>
+
+        <!-- 2. Configure SystemJS -->
+        <script src="systemjs.config.js"></script>
+        <script>
+            System.import('app').catch(function(err){ console.error(err); });
+        </script>
+
+
+    </head>
+    <body>
+      <my-app>Loading...</my-app>
+      <header>
+          <h1>AngularJS 2.0</h1>
+          <h2>Cómo ser experto en html5</h2>
+      <nav>
+          <ul>
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#">Programas</a></li>
+              <li><a href="#">Servicios</a></li>
+              <li><a href="#">Blog</a></li>
+          </ul>
+      </nav>
+      </header>
+
+
+      <section>
+        <article>
+
+
+
+
+
+
+        </article>
+
+      </section>
+      <section>
+          <article>
+              <h2>Dirección MUSERPOL</h2>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d956.3364360629927!2d-68.12664041855898!3d-16.508633853892654!3m2!1i1024!2i768!4f13.1!2m1!1s6+de+agosto!5e0!3m2!1ses-419!2sbo!4v1477691458485" width="510" height="425" frameborder="0" style="border:0" allowfullscreen>"
+              </iframe>
+              <p>Aqui va el artículo</p>
+              <img src="images/logo.png">
+          </article>
+      </section>
+      <aside>
+          <h2>ASIDE</h2>
+          <p>Puede haber mas de uno, y se les da formato diferente asignándoles ID o CLASS con CSS</p>
+      </aside>
+      <footer>
+          <h2>FOOTER</h2>
+          <p>Aqui todo el contenido del footer</p>
+      </footer>
+
+    </body>
+
+</html>
+<script>
+      document.write("Hola mundo " ) ;
+      document.write('Hola mundo2') ;
+    //  window.open("pagina.html");
+    var awesomeThoughts = "I am Felix and I am awesome";
+    console.log(awesomeThoughts);
+    var funThoughts = awesomeThoughts.replace("awesome","FUN");
+    console.log(funThoughts);
+
+  //  $("#main").append(funThoughts);
+
+
+</script>

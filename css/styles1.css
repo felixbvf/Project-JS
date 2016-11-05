@@ -1,0 +1,13 @@
+
+.education-entry, .work-entry, .project-entry, .skillsChart-entry, .flex-item {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+h1 {
+    font-size: 40px;
+    color: #F5A623;
+    line-height: 48px;
+    display: inline;
+}
